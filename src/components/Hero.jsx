@@ -6,7 +6,7 @@ import Search from "../assets/icon-search-blue.png";
 const Hero = () => {
   return (
     <section className="bg-[url('/src/assets/hero-bg.png')] bg-blend-darken bg-heroBackgroundColor bg-center bg-cover bg-no-repeat w-screen h-screen">
-      <div className="lg:px-[10%] px-[5%] pt-[2%] ">
+      <div className="lg:px-[8%] px-[5%] pt-[2%] ">
         <div className="mb-2 border-b border-b-white lg:flex lg:items-end lg:justify-between w-full">
           <img src={Logo} alt="" />
           <nav className="relative flex lg:justify-around lg:items-end w-[100%] lg:ml-[15%] lg:mr-[20%]">
@@ -21,8 +21,8 @@ const Hero = () => {
             The Most Affordable Place To Stay In The San Franciso Bay Area
           </h1>
           <div className="lg:w-[40%] flex lg:items-center flex-col">
-            <img src={Map} className="w-full" alt="" />
-            <div className="py-3 px-1 rounded-lg w-full bg-white flex items-center justify-center">
+            <img src={Map} alt="" />
+            <div className="lg:w-[90%] py-3 px-1 rounded-lg w-full bg-white flex items-center justify-center">
               <select>
                 <option value="All Type">All Type</option>
               </select>

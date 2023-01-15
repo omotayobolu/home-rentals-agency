@@ -7,7 +7,9 @@ module.exports = {
       heroBackgroundColor: "rgba(0,0,0,0.01%)",
       blue: "#23A6F0",
       light_black: "#252B42",
-      grey: "#E6E6E6"
+      black: "#18191F",
+      grey: "#E6E6E6",
+      orange: "#F4511E",
     },
     fontSize: {
       xl: ["42px"],
@@ -19,6 +21,9 @@ module.exports = {
     },
     extend: {
       heroBackgroundImage: "url('/src/assets/hero-bg.png')",
+      dropShadow: {
+        minimumLiving: "0 4px 4px rgba(0,0,0,25%)",
+      },
     },
   },
   plugins: [],

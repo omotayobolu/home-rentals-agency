@@ -22,12 +22,22 @@ nav a {
   @apply text-white font-normal text-lbase pb-4 hover:border-b-2 hover:border-b-white;
 }
 
-h1 {
+h1,
+h2,
+h4 {
   font-family: "Inter", sans-serif;
 }
 
 h1 {
   @apply lg:text-xl md:text-lg text-md;
+}
+
+h2 {
+  @apply lg:text-lg md:text-md text-sm lg:font-extrabold;
+}
+
+h4 {
+  @apply lg:text-lbase lg:font-semibold;
 }
 
 select {
@@ -36,4 +46,8 @@ select {
 
 option {
   @apply text-base font-medium leading-6;
+}
+
+.living-icon img {
+  @apply max-w-full;
 }
