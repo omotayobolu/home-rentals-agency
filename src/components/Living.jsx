@@ -6,10 +6,8 @@ const Living = () => {
   return (
     <section className="w-full">
       <div className="lg:mx-[8%] lg:my-[4%] ">
-        <h2 className="text-black">
-          Minimum Living Cost Takes Care Of Everything
-        </h2>
-        <hr width="33%" className="bg-orange text-orange h-[2px]" />
+        <h2>Minimum Living Cost Takes Care Of Everything</h2>
+        <hr width="35%" className="bg-orange text-orange h-[2px]" />
         <div className="flex flex-row items-center">
           <img src={Minimum} alt="" />
           <div className="grid grid-cols-3 gap-y-20 gap-10">

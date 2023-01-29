@@ -14,7 +14,9 @@ body {
   font-size: 14px;
 }
 
-nav {
+nav,
+h5,
+span {
   font-family: "DM Sans", sans-serif;
 }
 
@@ -33,11 +35,15 @@ h1 {
 }
 
 h2 {
-  @apply lg:text-lg md:text-md text-sm lg:font-extrabold;
+  @apply lg:text-lg md:text-md text-sm lg:font-extrabold text-black;
 }
 
 h4 {
   @apply lg:text-lbase lg:font-semibold;
+}
+
+h5 {
+  @apply lg:text-sm font-bold;
 }
 
 select {
@@ -50,4 +56,12 @@ option {
 
 .living-icon img {
   @apply max-w-full;
+}
+
+.room-features span {
+  @apply font-bold lg:text-lbase text-base;
+}
+
+.pagination span {
+  @apply border border-pagination cursor-pointer font-bold lg:p-6 p-4;
 }

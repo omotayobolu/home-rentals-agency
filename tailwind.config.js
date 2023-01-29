@@ -9,7 +9,12 @@ module.exports = {
       light_black: "#252B42",
       black: "#18191F",
       grey: "#E6E6E6",
+      grey_two: "#E4E4E4",
       orange: "#F4511E",
+      muted_color: "#F5F5F5",
+      dark_grey: "#818181",
+      light_grey: "#979797",
+      pagination: "#BDBDBD",
     },
     fontSize: {
       xl: ["42px"],
@@ -23,6 +28,7 @@ module.exports = {
       heroBackgroundImage: "url('/src/assets/hero-bg.png')",
       dropShadow: {
         minimumLiving: "0 4px 4px rgba(0,0,0,25%)",
+        propertyList: "0 34px 36px rgba(0,0,0,13.37%)",
       },
     },
   },

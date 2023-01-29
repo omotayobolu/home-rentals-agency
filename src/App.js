@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./components/Hero";
+import List from "./components/List";
 import Living from "./components/Living";
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Hero />
       <Living />
+      <List />
     </>
   );
 };

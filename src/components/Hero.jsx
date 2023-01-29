@@ -5,7 +5,7 @@ import Search from "../assets/icon-search-blue.png";
 
 const Hero = () => {
   return (
-    <section className="bg-[url('/src/assets/hero-bg.png')] bg-blend-darken bg-heroBackgroundColor bg-center bg-cover bg-no-repeat w-screen h-screen">
+    <section className="bg-[url('/src/assets/hero-bg.png')] bg-heroBackgroundColor bg-center bg-cover bg-no-repeat h-screen">
       <div className="lg:px-[8%] px-[5%] pt-[2%] ">
         <div className="mb-2 border-b border-b-white lg:flex lg:items-end lg:justify-between w-full">
           <img src={Logo} alt="" />
