@@ -4,6 +4,8 @@ import Bed from "../assets/Bed.svg";
 import Shower from "../assets/Shower.svg";
 import Size from "../assets/Size.svg";
 
+import Button from "./UI/Button";
+
 const List = () => {
   return (
     <section className="bg-muted_color lg:px-[8%] lg:py-[4%]">
@@ -12,9 +14,7 @@ const List = () => {
           <h2>List Of Properties</h2>
           <hr width="25%" className="bg-orange text-orange h-[2px]" />
         </div>
-        <button className="bg-orange text-white rounded-md text-[17px] py-4 px-8">
-          View All Properties
-        </button>
+        <Button className="px-6 py-4">View All Properties</Button>
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-12 my-8">
         {PropertiesList.map((property) => (
@@ -58,6 +58,7 @@ const List = () => {
         <span className="text-white bg-orange">2</span>
         <span className="text-orange bg-white">3</span>
         <span className="text-orange bg-white">Next</span>
+        {/* iMPLEMENT USING SWIPER JS/REACT-SPLIDE, so make it one row instead of 2 */}
       </div>
     </section>
   );
