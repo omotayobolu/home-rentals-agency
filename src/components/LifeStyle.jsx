@@ -9,14 +9,22 @@ const LifeStyle = () => {
   return (
     <section className="bg-white lg:px-[8%] lg:py-[4%]">
       <div className="grid grid-cols-2 gap-20 items-center">
-        <div className="grid grid-cols-2">
-          <div className="">
+        <div className="grid grid-cols-2 items-end gap-4 justify-items-end">
+          <div className="flexibility-image">
             <img src={Flex1} alt="" />
-            <img src={Happiness} alt="" />
+            <div>Flexible Leases</div>
           </div>
-          <div>
+          <div className="flexibility-image">
+            <img src={Happiness} alt="" />
+            <div>7-Day Happiness Guaranteed</div>
+          </div>
+          <div className="flexibility-image">
             <img src={Cleaning} alt="" />
+            <div>Monthly House Cleaning</div>
+          </div>
+          <div className="flexibility-image">
             <img src={Roommate} alt="" />
+            <div>Choose Your Own Roommate</div>
           </div>
         </div>
         <div className="lg:mr-[10%]">
@@ -28,7 +36,7 @@ const LifeStyle = () => {
             that you most desire.
           </p>
           <div className="mt-8">
-            <Button className="px-6 py-4">Search Rooms</Button>
+            <Button className="px-6 py-4 rounded-xl">Search Rooms</Button>
           </div>
         </div>
       </div>

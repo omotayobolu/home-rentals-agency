@@ -15,6 +15,7 @@ module.exports = {
       dark_grey: "#818181",
       light_grey: "#979797",
       pagination: "#BDBDBD",
+      flexibilityImageHover: "rgba(0,0,0,20%)",
     },
     fontSize: {
       xl: ["42px"],

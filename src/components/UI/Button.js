@@ -3,7 +3,9 @@ import React from "react";
 const Button = (props) => {
   return (
     <button
-      className={`bg-orange text-white rounded-md text-[17px] cursor-pointer ${props.className}`}
+      className={`bg-orange text-white text-[17px] cursor-pointer
+      hover:opacity-90
+      ${props.className}`}
     >
       {props.children}
     </button>

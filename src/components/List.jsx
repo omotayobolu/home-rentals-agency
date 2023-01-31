@@ -14,7 +14,7 @@ const List = () => {
           <h2>List Of Properties</h2>
           <hr width="25%" className="bg-orange text-orange h-[2px]" />
         </div>
-        <Button className="px-6 py-4">View All Properties</Button>
+        <Button className="rounded-md px-6 py-4">View All Properties</Button>
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-12 my-8">
         {PropertiesList.map((property) => (

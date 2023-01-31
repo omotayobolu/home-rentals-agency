@@ -27,7 +27,8 @@ nav a {
 h1,
 h2,
 h4,
-p {
+p,
+.flexibility-image > div {
   font-family: "Inter", sans-serif;
 }
 
@@ -65,4 +66,12 @@ option {
 
 .pagination span {
   @apply border border-pagination cursor-pointer font-bold lg:p-6 p-4;
+}
+
+.flexibility-image {
+  @apply relative cursor-pointer;
+}
+
+.flexibility-image > div {
+  @apply absolute top-0 left-0 pt-5 font-semibold text-white text-[24px] bg-flexibilityImageHover h-full w-full rounded-[20px] opacity-0 hover:opacity-100 text-center;
 }
