@@ -37,15 +37,15 @@ h1 {
 }
 
 h2 {
-  @apply lg:text-lg md:text-md text-sm lg:font-extrabold text-black;
+  @apply lg:text-lg md:text-md text-sm lg:font-extrabold font-bold text-black;
 }
 
 h4 {
-  @apply lg:text-lbase lg:font-semibold;
+  @apply text-lbase font-semibold;
 }
 
 h5 {
-  @apply lg:text-sm font-bold;
+  @apply lg:text-sm text-lbase font-bold;
 }
 
 select {
@@ -57,7 +57,7 @@ option {
 }
 
 .living-icon img {
-  @apply max-w-full;
+  @apply max-w-full drop-shadow-minimumLiving rounded-xl bg-white p-3;
 }
 
 .room-features span {
@@ -73,5 +73,9 @@ option {
 }
 
 .flexibility-image > div {
-  @apply absolute top-0 left-0 pt-5 font-semibold text-white text-[24px] bg-flexibilityImageHover h-full w-full rounded-[20px] opacity-0 hover:opacity-100 text-center;
+  @apply absolute top-0 left-0 pt-5 font-semibold text-white lg:text-[24px] text-lbase bg-flexibilityImageHover h-full w-full rounded-[20px] opacity-0 hover:opacity-100 text-center;
+}
+
+.property img {
+  @apply w-full;
 }

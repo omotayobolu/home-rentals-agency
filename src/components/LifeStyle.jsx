@@ -7,8 +7,8 @@ import Button from "./UI/Button";
 
 const LifeStyle = () => {
   return (
-    <section className="bg-white lg:px-[8%] lg:py-[4%]">
-      <div className="grid grid-cols-2 gap-20 items-center">
+    <section className="bg-white lg:px-[8%] px-[4%] py-[4%]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-20 items-center">
         <div className="grid grid-cols-2 items-end gap-4 justify-items-end">
           <div className="flexibility-image">
             <img src={Flex1} alt="" />
@@ -27,7 +27,7 @@ const LifeStyle = () => {
             <div>Choose Your Own Roommate</div>
           </div>
         </div>
-        <div className="lg:mr-[10%]">
+        <div className="lg:mr-[10%] lg:text-start text-center">
           <h2>Flexibility and options to suit your lifestyle.</h2>
           <p className="font-regular lg:text-lbase text-base text-black mt-[5%]">
             You need it? We got it. We make finding your next home easy,

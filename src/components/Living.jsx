@@ -1,21 +1,21 @@
 import React from "react";
 import Minimum from "../assets/minimum-pic.png";
-import MinimumLivingCost from "../data/MinimumLivingCost";
+import MinimumLivingCost from "./data/MinimumLivingCost";
 
 const Living = () => {
   return (
     <section className="w-full">
-      <div className="lg:mx-[8%] lg:my-[4%] ">
-        <h2>Minimum Living Cost Takes Care Of Everything</h2>
-        <hr width="35%" className="bg-orange text-orange h-[2px]" />
-        <div className="flex flex-row items-center">
+      <div className="lg:mx-[8%] my-[8%] mx-[3%] ">
+        <h2 className="lg:text-start text-center">
+          <span className="border-b-2 border-orange">Minimum Living Cost</span>{" "}
+          Takes Care Of Everything
+        </h2>
+        <div className="flex lg:flex-row flex-col items-center">
           <img src={Minimum} alt="" />
-          <div className="grid grid-cols-3 gap-y-20 gap-10">
+          <div className="grid lg:grid-cols-3 grid-cols-2 gap-10">
             {MinimumLivingCost.map((item) => (
-              <div id="item.id" className="w-[90%]">
-                <div className="living-icon w-[30%] rounded-xl bg-white p-3 drop-shadow-minimumLiving">
-                  {item.image}
-                </div>
+              <div id="item.id" className="living-icon">
+                {item.image}
                 <h4 className="pt-4 text-black">{item.text}</h4>
               </div>
             ))}

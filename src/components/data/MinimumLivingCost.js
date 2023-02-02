@@ -1,9 +1,9 @@
-import Money from "../assets/money.png";
-import Community from "../assets/community.png";
-import Landlord from "../assets/stack-line.png";
-import Peace from "../assets/plant-line.png";
-import Safety from "../assets/shield-star-line.png";
-import Payment from "../assets/eye-2-line.png";
+import Money from "../../assets/money.png";
+import Community from "../../assets/community.png";
+import Landlord from "../../assets/stack-line.png";
+import Peace from "../../assets/plant-line.png";
+import Safety from "../../assets/shield-star-line.png";
+import Payment from "../../assets/eye-2-line.png";
 
 const MinimumLivingCost = [
   {

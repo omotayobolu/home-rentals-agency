@@ -1,9 +1,9 @@
-import Property1 from "../assets/property1.png";
-import Property2 from "../assets/property2.png";
-import Property3 from "../assets/property3.png";
-import Property4 from "../assets/property4.png";
-import Property5 from "../assets/property5.png";
-import Property6 from "../assets/property6.png";
+import Property1 from "../../assets/property1.png";
+import Property2 from "../../assets/property2.png";
+import Property3 from "../../assets/property3.png";
+import Property4 from "../../assets/property4.png";
+import Property5 from "../../assets/property5.png";
+import Property6 from "../../assets/property6.png";
 
 const Properties = [
   {
