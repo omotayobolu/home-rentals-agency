@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import List from "./components/List";
 import Living from "./components/Living";
 import LifeStyle from "./components/LifeStyle";
+import AddProperty from "./components/AddProperty";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Living />
       <List />
       <LifeStyle />
+      <AddProperty />
     </>
   );
 };

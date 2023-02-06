@@ -8,7 +8,7 @@ import Button from "./UI/Button";
 
 const List = () => {
   return (
-    <section className="bg-muted_color lg:px-[8%] py-[4%] px-[3%] ">
+    <section className="bg-muted_color lg:px-[8%] py-[4%] px-[4%] ">
       <div className="flex lg:flex-row flex-col gap-5 justify-between items-center">
         <div>
           <h2>
@@ -20,7 +20,7 @@ const List = () => {
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-12 my-8">
         {PropertiesList.map((property) => (
           <div
-            id={property.id}
+            key={property.id}
             className="property bg-white border border-light_grey rounded-[27px]
             hover:drop-shadow-propertyList hover:border-none
             "

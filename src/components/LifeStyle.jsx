@@ -8,7 +8,7 @@ import Button from "./UI/Button";
 const LifeStyle = () => {
   return (
     <section className="bg-white lg:px-[8%] px-[4%] py-[4%]">
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-20 items-center">
+      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-10 items-center">
         <div className="grid grid-cols-2 items-end gap-4 justify-items-end">
           <div className="flexibility-image">
             <img src={Flex1} alt="" />

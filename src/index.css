@@ -2,80 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  nav,
+  h5,
+  span {
+    font-family: "DM Sans", sans-serif;
+  }
+
+  nav a {
+    @apply text-white font-normal text-lbase pb-4 hover:border-b-2 hover:border-b-white;
+  }
+
+  h1,
+  h2,
+  h4,
+  p,
+  .flexibility-image > div,
+  input {
+    font-family: "Inter", sans-serif;
+  }
+
+  h1 {
+    @apply md:text-xl text-md;
+  }
+
+  h2 {
+    @apply md:text-lg text-sm lg:font-extrabold font-bold text-black;
+  }
+
+  h4 {
+    @apply text-lbase font-semibold;
+  }
+
+  h5 {
+    @apply lg:text-sm text-lbase font-bold;
+  }
 }
 
-html,
-body {
-  font-size: 14px;
-}
+@layer utilities {
+  #Home select {
+    @apply p-3 border border-grey text-light_black;
+  }
 
-nav,
-h5,
-span {
-  font-family: "DM Sans", sans-serif;
-}
+  #Home option {
+    @apply text-base font-medium leading-6;
+  }
 
-nav a {
-  @apply text-white font-normal text-lbase pb-4 hover:border-b-2 hover:border-b-white;
-}
+  .living-icon img {
+    @apply max-w-full drop-shadow-minimumLiving rounded-xl bg-white p-3;
+  }
 
-h1,
-h2,
-h4,
-p,
-.flexibility-image > div {
-  font-family: "Inter", sans-serif;
-}
+  .room-features span {
+    @apply font-bold lg:text-lbase text-base;
+  }
 
-h1 {
-  @apply lg:text-xl md:text-lg text-md;
-}
+  .pagination span {
+    @apply border border-pagination cursor-pointer font-bold lg:p-6 p-4;
+  }
 
-h2 {
-  @apply lg:text-lg md:text-md text-sm lg:font-extrabold font-bold text-black;
-}
+  .flexibility-image {
+    @apply relative cursor-pointer;
+  }
 
-h4 {
-  @apply text-lbase font-semibold;
-}
+  .flexibility-image > div {
+    @apply absolute top-0 left-0 pt-5 font-semibold text-white lg:text-[24px] text-lbase bg-flexibilityImageHover h-full w-full rounded-[20px] opacity-0 hover:opacity-100 text-center;
+  }
 
-h5 {
-  @apply lg:text-sm text-lbase font-bold;
-}
-
-select {
-  @apply p-3 border border-grey text-light_black;
-}
-
-option {
-  @apply text-base font-medium leading-6;
-}
-
-.living-icon img {
-  @apply max-w-full drop-shadow-minimumLiving rounded-xl bg-white p-3;
-}
-
-.room-features span {
-  @apply font-bold lg:text-lbase text-base;
-}
-
-.pagination span {
-  @apply border border-pagination cursor-pointer font-bold lg:p-6 p-4;
-}
-
-.flexibility-image {
-  @apply relative cursor-pointer;
-}
-
-.flexibility-image > div {
-  @apply absolute top-0 left-0 pt-5 font-semibold text-white lg:text-[24px] text-lbase bg-flexibilityImageHover h-full w-full rounded-[20px] opacity-0 hover:opacity-100 text-center;
-}
-
-.property img {
-  @apply w-full;
+  .property img {
+    @apply w-full;
+  }
 }

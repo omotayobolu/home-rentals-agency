@@ -16,6 +16,9 @@ module.exports = {
       light_grey: "#979797",
       pagination: "#BDBDBD",
       flexibilityImageHover: "rgba(0,0,0,20%)",
+      inputBg: "#f9f9f9",
+      inputText: "#737373",
+      fileBg: "rgba(244, 81, 30, 1%)",
     },
     fontSize: {
       xl: ["42px"],
@@ -30,6 +33,7 @@ module.exports = {
       dropShadow: {
         minimumLiving: "0 4px 4px rgba(0,0,0,25%)",
         propertyList: "0 34px 36px rgba(0,0,0,13.37%)",
+        addProperty: "0 4px 63px rgba(0,0,0,15%)",
       },
     },
   },
