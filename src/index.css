@@ -22,7 +22,7 @@
   }
 
   nav a {
-    @apply text-white font-normal text-lbase pb-4 hover:border-b-2 hover:border-b-white;
+    @apply text-white font-normal lg:text-lbase text-sm pb-4;
   }
 
   h1,
