@@ -16,7 +16,7 @@ const Properties = [
   {
     id: "02",
     image: <img src={Property2} alt="" />,
-    title: "2819 Jonzing street, Houston, Texas, 27186",
+    title: "2819 Jonzingguy street, Houston, Texas, 27186",
     room: "Private Room",
     price: "$1000/Month",
   },

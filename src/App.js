@@ -4,6 +4,7 @@ import List from "./components/List";
 import Living from "./components/Living";
 import LifeStyle from "./components/LifeStyle";
 import AddProperty from "./components/AddProperty";
+import Testimonies from "./components/Testimonies";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <List />
       <LifeStyle />
       <AddProperty />
+      <Testimonies />
     </>
   );
 };

@@ -19,6 +19,7 @@ module.exports = {
       inputBg: "#f9f9f9",
       inputText: "#737373",
       fileBg: "rgba(244, 81, 30, 1%)",
+      testimoniesBg: "rgba(244, 81, 30, 7%)",
     },
     fontSize: {
       xl: ["42px"],

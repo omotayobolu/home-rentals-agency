@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import { FaBars, FaTimes } from "react-icons/fa";
-
 import Logo from "../assets/logo.png";
 import Map from "../assets/map.png";
 import Search from "../assets/icon-search-blue.png";
@@ -29,7 +28,7 @@ const Hero = () => {
               <a href="#">Tenants</a>
               <a href="#">Contact Us</a>
               <button onClick={toggleNav} className="text-white">
-                <FaTimes className="text-sm lg:hidden absolute top-[3%] right-[3%]" />
+                <FaTimes className="text-sm lg:hidden absolute top-[3%] right-[5%]" />
               </button>
             </nav>
           )}
