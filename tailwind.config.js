@@ -20,6 +20,7 @@ module.exports = {
       inputText: "#737373",
       fileBg: "rgba(244, 81, 30, 1%)",
       testimoniesBg: "rgba(244, 81, 30, 7%)",
+      footer_text: "#0A142F",
     },
     fontSize: {
       xl: ["42px"],

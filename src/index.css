@@ -83,4 +83,16 @@
   .property img {
     @apply w-full;
   }
+
+  footer span {
+    @apply text-footer_text text-lbase font-normal;
+  }
+
+  .footer-nav {
+    @apply flex items-center gap-4 flex-nowrap;
+  }
+
+  .footer-nav span {
+    @apply text-footer_text text-base uppercase font-normal;
+  }
 }

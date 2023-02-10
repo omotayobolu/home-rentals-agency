@@ -5,6 +5,7 @@ import Living from "./components/Living";
 import LifeStyle from "./components/LifeStyle";
 import AddProperty from "./components/AddProperty";
 import Testimonies from "./components/Testimonies";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <LifeStyle />
       <AddProperty />
       <Testimonies />
+      <Footer />
     </>
   );
 };

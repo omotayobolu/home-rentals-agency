@@ -7,8 +7,8 @@ import PlayIcon from "../assets/playIcon.png";
 const Testimonies = () => {
   return (
     <section className="bg-testimoniesBg lg:pl-[8%] px-[4%] ">
-      <div className="grid grid-cols-2 gap-5">
-        <div className="relative">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
+        <div className="relative mt-8">
           <p className="font-regular text-lbase leading-9 p-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel
