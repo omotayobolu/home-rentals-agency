@@ -15,7 +15,10 @@ import Hotspot from "../assets/rss.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-white lg:mt-[10%] mt-[5%] lg:mx-[8%] mx-[4%]">
+    <footer
+      id="contact-us"
+      className="bg-white lg:mt-[10%] mt-[5%] lg:mx-[8%] mx-[4%]"
+    >
       <hr className="border border-orange" />
       <div className="py-16 flex lg:flex-row flex-col items-center lg:justify-around gap-6 text-left justify-center ">
         <div>
@@ -51,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" lg:mx-[8%] mx-[5%]">
+      <div className=" lg:mx-[8%] mx-[5%] my-[2%]">
         <hr className="border-top border-light_grey my-4" />
         <div className="flex lg:flex-row flex-col justify-between gap-4">
           <div className="footer-nav">
@@ -62,7 +65,7 @@ const Footer = () => {
             <span>Disclaimer</span>
           </div>
           <span className="text-base text-center">
-            Copyright © 2020 Minimumlivingcost. All rights reserved
+            Copyright © 2023 Minimumlivingcost. All rights reserved
           </span>
         </div>
       </div>

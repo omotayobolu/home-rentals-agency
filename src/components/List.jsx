@@ -14,7 +14,7 @@ const List = () => {
   const screenWidth = window.innerWidth;
 
   return (
-    <section className="bg-muted_color lg:px-[8%] py-[4%] px-[4%] ">
+    <section id="list" className="bg-muted_color lg:px-[8%] py-[4%] px-[4%] ">
       <div className="flex lg:flex-row flex-col gap-5 justify-between items-center">
         <div>
           <h2>

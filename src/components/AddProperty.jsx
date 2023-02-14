@@ -33,7 +33,7 @@ const AddProperty = () => {
   };
 
   return (
-    <section className="bg-white lg:px-[8%] px-[4%] py-[4%]">
+    <section id="add-property" className="bg-white lg:px-[8%] px-[4%] py-[4%]">
       <h5 className="text-center">
         Your property with us and be Confident that Your Room will be Filled
         Out!

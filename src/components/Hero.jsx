@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/logo.png";
@@ -15,23 +16,60 @@ const Hero = () => {
 
   return (
     <section
-      id="Home"
+      id="home"
       className="bg-[url('/src/assets/hero-bg.png')] bg-heroBackgroundColor bg-center bg-cover bg-no-repeat h-screen"
     >
       <div className="lg:px-[8%] px-[4%] pt-[2%] ">
         <header className="relative lg:flex lg:items-end lg:justify-between w-full mb-2">
           <img src={Logo} alt="" />
-          {(toggleMenu || screenWidth > 1024) && (
+          {toggleMenu && (
             <nav className="flex lg:flex-row flex-col lg:justify-around justify-center lg:items-end items-center w-full h-full bg-light_black lg:bg-opacity-0 lg:relative fixed lg:ml-[15%] lg:mr-[20%] z-10 top-0 left-0">
-              <a href="#">Home</a>
-              <a href="#">Landlord</a>
-              <a href="#">Tenants</a>
-              <a href="#">Contact Us</a>
+              <Link
+                onClick={() => setToggleMenu(false)}
+                spy={true}
+                smooth={true}
+                to="home"
+              >
+                Home
+              </Link>
+              <Link
+                onClick={() => setToggleMenu(false)}
+                spy={true}
+                smooth={true}
+                to="add-property"
+              >
+                Landlord
+              </Link>
+              <Link
+                onClick={() => setToggleMenu(false)}
+                spy={true}
+                smooth={true}
+                to="list"
+              >
+                Tenants
+              </Link>
+              <Link
+                onClick={() => setToggleMenu(false)}
+                spy={true}
+                smooth={true}
+                to="contact-us"
+              >
+                Contact Us
+              </Link>
               <button onClick={toggleNav} className="text-white">
                 <FaTimes className="text-sm lg:hidden absolute top-[3%] right-[5%]" />
               </button>
             </nav>
           )}
+          {screenWidth > 1024 && (
+            <nav className="flex lg:flex-row flex-col lg:justify-around justify-center lg:items-end items-center w-full h-full bg-light_black lg:bg-opacity-0 lg:relative fixed lg:ml-[15%] lg:mr-[20%] z-10 top-0 left-0">
+              <a href="#home">Home</a>
+              <a href="#add-property">Landlord</a>
+              <a href="#list">Tenants</a>
+              <a href="#contact-us">Contact Us</a>
+            </nav>
+          )}
+
           {!toggleMenu && (
             <button onClick={toggleNav} className="text-white">
               <FaBars className="text-sm lg:hidden absolute top-[15%] right-[5%]" />
